@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; box-sizing: border-box;}
+body {
+  background: #0f1e0f;
+  color: #e8f5e8;
+  font-family: sans-serif;
+}
+h1 {color: #4caf50; font-size: 2rem; margin-bottom: 8px;}
+p { color: #a5c8a5; margin-bottom: 16px;}
