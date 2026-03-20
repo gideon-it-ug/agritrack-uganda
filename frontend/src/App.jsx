@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import PriceMap from './Map'
 
 const CROPS = ['All', 'Maize', 'Beans', 'Cassava', 'Rice', 'Millet']
 
@@ -59,6 +60,7 @@ function App() {
       <div style={{ marginBottom: '32px' }}>
         <h1 style={{ color: '#4caf50', fontSize: '2.2rem', margin: 0 }}>🌾 AgriTrack Uganda</h1>
         <p style={{ color: '#6a9a6a', marginTop: '8px' }}>Live crop prices across Uganda</p>
+        <PriceMap prices={prices}/>
       </div>
 
       <input
