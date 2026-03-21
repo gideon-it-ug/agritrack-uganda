@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import PriceMap from './Map'
+import PriceMap from './map'
 
 const CROPS = ['All', 'Maize', 'Beans', 'Cassava', 'Rice', 'Millet']
 
